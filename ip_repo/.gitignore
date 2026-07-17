@@ -1,0 +1,76 @@
+# ----------------------------------------------------------------------
+# Xilinx Vivado .gitignore
+# ----------------------------------------------------------------------
+
+# Build, Simulation, and Cache Directories
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.tmp/
+.Xil/
+.metadata/
+*.sdk/
+
+# Logs, Journals, and Crash files
+*.jou
+*.log
+*.debug
+*.str
+*.dmp
+*.hbs
+*.os
+*.pb
+*.vds
+*.vdi
+*.rpx
+*.rpt
+
+# Build Artifacts (Bitstreams, Handoffs, Checkpoints)
+*.xsa
+*.bit
+*.bin
+*.dcp
+*.hwdef
+*.rld
+
+# IP and Block Design Intermediate Files
+*.bxml
+*_stub.v
+*_stub.vhdl
+*_funcsim.v
+*_funcsim.vhdl
+*_sim_netlist.v
+*_sim_netlist.vhdl
+*.protoinst
+
+# Misc temporary files
+*.zip
+*.tmp
+.jobs
+
+# Ignore Vivado Project and Block Design files (Recreated by Tcl)
+*.xpr
+*.bd
+*.bda
+*.ui
+
+# Generated Xilinx Floating-Point IP output products.
+# Don't ignore .xci IP configurations files. 
+pim/src/*/*.dcp
+pim/src/*/*_ooc.xdc
+pim/src/*/*_sim_netlist.v
+pim/src/*/*_sim_netlist.vhdl
+pim/src/*/*_stub.v
+pim/src/*/*_stub.vhdl
+pim/src/*/*.veo
+pim/src/*/*.vho
+pim/src/*/*.xml
+pim/src/*/cmodel/
+pim/src/*/demo_tb/
+pim/src/*/doc/
+pim/src/*/hdl/
+pim/src/*/sim/
+pim/src/*/synth/

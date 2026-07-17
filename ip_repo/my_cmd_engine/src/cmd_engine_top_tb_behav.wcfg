@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cmd_engine_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cmd_engine_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="89.271 ns"></ZoomStartTime>
+      <ZoomEndTime time="606.364 ns"></ZoomEndTime>
+      <Cursor1Time time="187.256 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="117"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/soft_rst_pulse">
+      <obj_property name="ElementShortName">soft_rst_pulse</obj_property>
+      <obj_property name="ObjectShortName">soft_rst_pulse</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/irq_en">
+      <obj_property name="ElementShortName">irq_en</obj_property>
+      <obj_property name="ObjectShortName">irq_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/cmd_base">
+      <obj_property name="ElementShortName">cmd_base[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_base[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/cmd_len">
+      <obj_property name="ElementShortName">cmd_len[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_len[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/doorbell_pulse">
+      <obj_property name="ElementShortName">doorbell_pulse</obj_property>
+      <obj_property name="ObjectShortName">doorbell_pulse</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/done_pulse">
+      <obj_property name="ElementShortName">done_pulse</obj_property>
+      <obj_property name="ObjectShortName">done_pulse</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/err_pulse">
+      <obj_property name="ElementShortName">err_pulse[1:0]</obj_property>
+      <obj_property name="ObjectShortName">err_pulse[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/curr_cmd">
+      <obj_property name="ElementShortName">curr_cmd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_cmd[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/perf">
+      <obj_property name="ElementShortName">perf[31:0]</obj_property>
+      <obj_property name="ObjectShortName">perf[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/instr_clk">
+      <obj_property name="ElementShortName">instr_clk</obj_property>
+      <obj_property name="ObjectShortName">instr_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/instr_rst">
+      <obj_property name="ElementShortName">instr_rst</obj_property>
+      <obj_property name="ObjectShortName">instr_rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/instr_addr">
+      <obj_property name="ElementShortName">instr_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr[13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/instr_dout">
+      <obj_property name="ElementShortName">instr_dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_dout[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/instr_en">
+      <obj_property name="ElementShortName">instr_en</obj_property>
+      <obj_property name="ObjectShortName">instr_en</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cmd_engine_top_tb/uut/curr_state">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cmd_engine_top_tb/uut/next_state">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cmd_engine_top_tb/uut/pc">
+      <obj_property name="ElementShortName">pc</obj_property>
+      <obj_property name="ObjectShortName">pc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/pim_cmd_valid">
+      <obj_property name="ElementShortName">pim_cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">pim_cmd_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/pim_cmd_ready">
+      <obj_property name="ElementShortName">pim_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">pim_cmd_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/pim_cmd">
+      <obj_property name="ElementShortName">pim_cmd[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pim_cmd[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cmd_engine_top_tb/pim_done_pulse">
+      <obj_property name="ElementShortName">pim_done_pulse</obj_property>
+      <obj_property name="ObjectShortName">pim_done_pulse</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/burst_len">
+      <obj_property name="ElementShortName">burst_len[4:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_len[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/burst_len_m1">
+      <obj_property name="ElementShortName">burst_len_m1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_len_m1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/burst_idx">
+      <obj_property name="ElementShortName">burst_idx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_idx[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/burst_idx_p1">
+      <obj_property name="ElementShortName">burst_idx_p1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_idx_p1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/co_base">
+      <obj_property name="ElementShortName">co_base[5:0]</obj_property>
+      <obj_property name="ObjectShortName">co_base[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/co_next">
+      <obj_property name="ElementShortName">co_next[5:0]</obj_property>
+      <obj_property name="ObjectShortName">co_next[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/rs_base">
+      <obj_property name="ElementShortName">rs_base[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_base[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/rs_next">
+      <obj_property name="ElementShortName">rs_next[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_next[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/rd_base">
+      <obj_property name="ElementShortName">rd_base[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_base[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cmd_engine_top_tb/uut/rd_next">
+      <obj_property name="ElementShortName">rd_next[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_next[8:0]</obj_property>
+   </wvobject>
+</wave_config>

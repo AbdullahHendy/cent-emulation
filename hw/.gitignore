@@ -1,0 +1,62 @@
+# ----------------------------------------------------------------------
+# Xilinx Vivado .gitignore
+# ----------------------------------------------------------------------
+
+# Build, Simulation, and Cache Directories
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.tmp/
+.Xil/
+.metadata/
+*.sdk/
+
+# Logs, Journals, and Crash files
+*.jou
+*.log
+*.debug
+*.str
+*.dmp
+*.hbs
+*.os
+*.pb
+*.vds
+*.vdi
+*.rpx
+*.rpt
+
+# Build Artifacts (Bitstreams, Handoffs, Checkpoints)
+*.xsa
+*.bit
+*.bin
+*.dcp
+*.hwdef
+*.rld
+*.mem
+
+# IP and Block Design Intermediate Files
+*.bxml
+*_stub.v
+*_stub.vhdl
+*_funcsim.v
+*_funcsim.vhdl
+*_sim_netlist.v
+*_sim_netlist.vhdl
+*.protoinst
+
+# Misc temporary files
+*.zip
+*.tmp
+.jobs
+
+# Ignore Vivado Project and Block Design files (Recreated by Tcl)
+*.xpr
+*.bd
+*.bda
+*.ui
+
+# Ignore the generated Block Design folder and its IP configs
+*.srcs/sources_1/bd/
