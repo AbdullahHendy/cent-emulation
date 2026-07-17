@@ -1,0 +1,24 @@
+{
+  "modelVersion": "1.0",
+  "projectName": "cent_app",
+  "platform": "cent",
+  "externalComponentRefs": [
+    "cent_host",
+    "cent_pnm"
+  ],
+  "components": [],
+  "buildConfigurations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "supportedTargets": [
+        "HW_EMU",
+        "HW"
+      ]
+    }
+  ],
+  "activeBuildConfigId": "default",
+  "hostMode": "x86",
+  "isDirty": true,
+  "applicationFlow": "EMBEDDED"
+}

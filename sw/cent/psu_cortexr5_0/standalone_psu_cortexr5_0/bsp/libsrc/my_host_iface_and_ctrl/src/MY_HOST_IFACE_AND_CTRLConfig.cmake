@@ -1,0 +1,4 @@
+set(DRIVER_INSTANCES "my_host_iface_and_ctrl@a0000000")
+set(DRIVER_PROP_0_LIST "xlnx,my-host-iface-and-ctrl-1.0;0xa0000000;0x4059;0xf9000000")
+set(DRIVER_OPTPROP_0_LIST "")
+list(APPEND TOTAL_DRIVER_PROP_LIST DRIVER_PROP_0_LIST)

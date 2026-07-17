@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: Bindings for CENT Host Interface IP
+maintainers:
+  - Abdullah Hendy <ahendy@umich.com>
+properties:
+  compatible:
+    items:
+      - const: xlnx,my-host-iface-and-ctrl-1.0
+  reg:
+    description: Physical base address and size
+  interrupts:
+    maxItems: 2
+  interrupt-parent:
+    description: phandle for the interrupt controller
+
+required:
+  - compatible
+  - reg
+  - interrupts
+  - interrupt-parent

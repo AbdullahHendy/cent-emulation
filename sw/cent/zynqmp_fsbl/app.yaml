@@ -1,0 +1,4 @@
+domain_path: /home/abdullah/Desktop/UMich/dir-study/cent-emulation/sw/cent/zynqmp_fsbl/zynqmp_fsbl_bsp
+app_src_dir: /opt/Xilinx/2025.1/Vitis/data/embeddedsw/lib/sw_apps/zynqmp_fsbl
+template: zynqmp_fsbl
+lang: c

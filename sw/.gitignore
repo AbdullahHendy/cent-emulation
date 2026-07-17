@@ -1,0 +1,50 @@
+# Vitis Workspace ignore list
+/.rigel_lopper/
+
+# Vitis Platform ignore list
+export/
+resources/
+logs/
+sdt/
+
+# Vitis Application ignore list
+build/
+.cache/
+.compile_commands/
+compile_commands.json
+
+# Vitis System Project ignore list
+build/
+
+# Generic C/CMake ignores
+*.elf
+*.elf.size
+*.a
+*.o
+*.obj
+*.d
+*.dep
+*.map
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+.hash-map.txt
+.buildstatus
+install_manifest.txt
+.install_manifest.txt
+cmake_libconfigs.txt
+CMakeFiles/
+
+# Clangd caches
+.clangd/
+.clangd
+
+# Keep shared Vitis launch configurations in any component
+**/_ide/*
+!**/_ide/
+!**/_ide/launch.json
+# version.ini and settings.json for workspace
+!**/_ide/version.ini
+!**/_ide/settings.json
